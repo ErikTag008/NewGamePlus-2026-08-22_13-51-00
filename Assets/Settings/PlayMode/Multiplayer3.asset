@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 15024, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: Multiplayer3
+  m_EditorClassIdentifier: UnityEditor.MultiplayerModule.dll::Unity.Multiplayer.PlayMode.Editor.OrchestratedScenario
+  m_Description: 
+  m_EnableEditors: 1
+  m_MainEditorInstance:
+    Name: Editor
+    <CorrespondingNodeId>k__BackingField: 
+    m_Nodes: []
+    m_Role: 1
+    m_PlayerTag: 
+    m_InitialScene: {fileID: 0}
+    PlayerInstanceIndex: 0
+  m_EditorInstances: []
+  m_LocalInstances: []
+  m_MainEditorInstanceObsolete:
+    rid: -2
+  m_SerializedVersion: 1
+  m_Settings:
+    m_ExtensionsHash:
+      serializedVersion: 2
+      Hash: c16915d1f789adfc5d3631ffc39c502e
+    m_InstanceItems:
+    - rid: 6289270996902609339
+    - rid: 6289270996902609341
+    - rid: 6289270996902609343
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 6289270996902609339
+      type: {class: 'InstanceItem`2[[Unity.Multiplayer.PlayMode.Editor.MainEditorController, UnityEditor.MultiplayerModule],[Unity.Multiplayer.PlayMode.Editor.MainEditorController/InstanceSettings, UnityEditor.MultiplayerModule]]', ns: Unity.Multiplayer.PlayMode.Editor, asm: UnityEditor.MultiplayerModule}
+      data:
+        m_Id: a425857dcd554849aba22bde6a6afcab
+        m_Name: Main Editor
+        m_RunMode: 0
+        m_Settings:
+          PlayerTag: 
+          RoleMask: 1
+          InitialScene: {fileID: 102900000, guid: da45c4ef026a75142b4c914f97d462be, type: 3}
+        m_Decorators: []
+    - rid: 6289270996902609341
+      type: {class: 'InstanceItem`2[[Unity.Multiplayer.PlayMode.Editor.CloneEditorController, UnityEditor.MultiplayerModule],[Unity.Multiplayer.PlayMode.Editor.CloneEditorController/InstanceSettings, UnityEditor.MultiplayerModule]]', ns: Unity.Multiplayer.PlayMode.Editor, asm: UnityEditor.MultiplayerModule}
+      data:
+        m_Id: 15c674a2b1674c2297274bec75a1ff46
+        m_Name: Player 2
+        m_RunMode: 0
+        m_Settings:
+          PlayerTag: 
+          RoleMask: 1
+          PlayerInstanceIndex: 1
+          StreamLogsToMainEditor: 0
+          LogsColor: {r: 0.77757525, g: 0.8666667, b: 0.36470592, a: 1}
+        m_Decorators: []
+    - rid: 6289270996902609343
+      type: {class: 'InstanceItem`2[[Unity.Multiplayer.PlayMode.Editor.CloneEditorController, UnityEditor.MultiplayerModule],[Unity.Multiplayer.PlayMode.Editor.CloneEditorController/InstanceSettings, UnityEditor.MultiplayerModule]]', ns: Unity.Multiplayer.PlayMode.Editor, asm: UnityEditor.MultiplayerModule}
+      data:
+        m_Id: c2472dfee36e4802858a6414f339c7ab
+        m_Name: Player 3
+        m_RunMode: 0
+        m_Settings:
+          PlayerTag: 
+          RoleMask: 1
+          PlayerInstanceIndex: 2
+          StreamLogsToMainEditor: 0
+          LogsColor: {r: 0.43641368, g: 0.8666667, b: 0.36470592, a: 1}
+        m_Decorators: []

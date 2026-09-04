@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 988dbb6ce3f64044c9103342e42673c4, type: 3}
+  m_Name: NewGameBossStats
+  m_EditorClassIdentifier: ProjectAssembly::Project.Assets._Project._Scripts.Boss.BossStats
+  <MaxSpeed>k__BackingField: 20
+  <AccelerationSpeed>k__BackingField: 10
+  <JumpHeight>k__BackingField: 3
+  <JumpDuration>k__BackingField: 1.5
+  <JumpEase>k__BackingField: 8
+  <AngularSpeed>k__BackingField: 100000
+  <StoppingDistance>k__BackingField: 1
+  <DestinationUpdateDelay>k__BackingField: 0.1
+  <LeftHandDamage>k__BackingField: 15
+  <RightHandDamage>k__BackingField: 10
+  <JumpAttackDamage>k__BackingField: 30
+  <JumpAttackRadius>k__BackingField: 3
+  <PlayerLayer>k__BackingField:
+    serializedVersion: 2
+    m_Bits: 64
+  <MaxHealth>k__BackingField: 500
+  <RoarSFX>k__BackingField: {fileID: 8300000, guid: 4efcc0d7cb8478e4c9f109fc58668686, type: 3}
+  <RoarSFXVolume>k__BackingField: 1
+  <DeathSFX>k__BackingField: {fileID: 8300000, guid: 90e9ee5548250a842bd4333a7c1db1b0, type: 3}
+  <DeathSFXVolume>k__BackingField: 1
+  <GroundSlamSFX>k__BackingField: {fileID: 8300000, guid: 1d1dedd10cfd4ea438642cca31631f14, type: 3}
+  <GroundSlamSFXVolume>k__BackingField: 1
+  <HitmarkerSFX>k__BackingField: {fileID: 8300000, guid: fe6ed08344d0fac489ecb6120631203f, type: 3}
+  <HitmarkerSFXVolume>k__BackingField: 1
+  <CrossFadeDuration>k__BackingField: 0.2
+  <LocomotionStateName>k__BackingField: Locomotion
+  <DeathStateName>k__BackingField: Death
+  <RoarStateName>k__BackingField: Roar
+  <RightHandStateName>k__BackingField: RightHand
+  <LeftHandStateName>k__BackingField: LeftHand
+  <JumpAttackStateName>k__BackingField: JumpAttack
+  <JumpStateName>k__BackingField: Jump
+  <FromChaseToRightHandAttackChance>k__BackingField: 0.7
+  <FromChaseToLeftHandAttackChance>k__BackingField: 0.3
+  <FromEvadeToChaseChance>k__BackingField: 0.1
+  <FromEvadeToRoarChance>k__BackingField: 0.05
+  <FromEvadeToJumpAttackChance>k__BackingField: 0.8
+  <FromEvadeToEvadeChance>k__BackingField: 0.05
+  <FromRoarToJumpAttackChance>k__BackingField: 0.7
+  <FromRoarToChaseChance>k__BackingField: 0.3
+  <FromAttackToChaseChance>k__BackingField: 0.35
+  <FromAttackToRoarChance>k__BackingField: 0.25
+  <FromAttackToEvadeChance>k__BackingField: 0.2
+  <FromAttackToLeftHandAttackChance>k__BackingField: 0.1
+  <FromAttackToRightHandAttackChance>k__BackingField: 0.1
+  <FromJumpAttackToRightHandAttackChance>k__BackingField: 0.1
+  <FromJumpAttackToLeftHandAttackChance>k__BackingField: 0.1
+  <FromJumpAttackToChaseChance>k__BackingField: 0.2
+  <FromJumpAttackToJumpAttackChance>k__BackingField: 0.6
+  <ChaseMaxDuration>k__BackingField: 2
+  <EvadeMaxDuration>k__BackingField: 2
